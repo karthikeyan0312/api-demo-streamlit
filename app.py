@@ -12,7 +12,7 @@ app = Flask(__name__)
 def serve_foo():
     return 'This page is served via Flask!'
 
-app.run(port=8888)
+app.run()
 
 
 
